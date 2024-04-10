@@ -1,0 +1,79 @@
+/* Reset default margin and padding */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.main-header {
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+/* Title styles */
+.title {
+    text-align: center;
+    margin: 0;
+    font-size: 3rem; /* Adjusted font size for better readability */
+    font-family: "Helvetica", sans-serif; /* Added fallback generic font */
+    font-weight: normal;
+    color: white;
+}
+
+/* Card container styles */
+#card-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto; /* Center the container horizontally */
+    flex-wrap: wrap;
+}
+
+/* Card styles */
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+}
+
+/* Card content styles */
+.card-content {
+    padding: 20px;
+    font-family: "Verdana", sans-serif; /* Added fallback generic font */
+    color: #777;
+}
+
+.card-content h2 {
+    margin-top: 0;
+    font-size: 1.25rem; /* Adjusted font size for better readability */
+}
+
+/* Card image styles */
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer styles */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+/* Button styles */
+button {
+    text-align: center;
+    background-color: #666;
+    border: none;
+    padding: 0 15px; /* Adjusted padding for better button appearance */
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem; /* Adjusted font size for better readability */
+    cursor: pointer;
+    margin: 5px;
+}
